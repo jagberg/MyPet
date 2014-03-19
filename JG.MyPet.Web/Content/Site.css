@@ -1,0 +1,16 @@
+﻿body {
+}
+
+.angular-google-map-container {
+    height: 400px;
+}
+
+.changeThisShit {
+    height: 400px;
+    width: 400px;
+}
+
+.google-map.col-md-6 {
+    height: 400px;
+    width: 400px;
+}

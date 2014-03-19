@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div ng-app="tickMapApp">
+    <div ng-controller="TickMapController" >
+        <h4>Map Start</h4>
+        <google-map center="map.center" zoom="map.zoom">
+            <layer namespace="visualization" type="HeatmapLayer" oncreated="map.heatLayerCallback"></layer>
+        </google-map>
+        <h4>Map End</h4>
+    </div>
+
+</div>

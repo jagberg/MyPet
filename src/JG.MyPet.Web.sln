@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JG.MyPet.Web", "JG.MyPet.Web\JG.MyPet.Web.csproj", "{F49BC9E5-C714-4FD1-89C7-128F66823D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JG.MyPet.Web.Tests", "..\..\Users\Justin\Documents\Visual Studio 2013\Projects\JG.MyPet.Web\JG.MyPet.Web.Tests\JG.MyPet.Web.Tests.csproj", "{0198EFA3-FF08-4B76-98EF-BD3B4B000046}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JG.MyPet.Web.Tests", "JG.MyPet.Web.Tests\JG.MyPet.Web.Tests.csproj", "{0198EFA3-FF08-4B76-98EF-BD3B4B000046}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JG.MyPet.Service", "JG.MyPet.Service\JG.MyPet.Service.csproj", "{AEA466FC-A994-4D33-AC7E-D0EF0F5CF23D}"
 EndProject

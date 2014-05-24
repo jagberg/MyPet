@@ -2,9 +2,15 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
 <div ng-app="tickMapApp">
-    <div ng-controller="TickMapController" >
+    <div ng-controller="TickMapController">
+        <div class="map-search">
+            <label>Location</label>
+
+            <input type="text" id="Autocomplete" class="form-control" ng-autocomplete="locationSearchResult" options="locationSearchOptions" longitude="searchLongitude" latitude="searchLatitude" />
+            <label>Longitude: {{searchLongitude}}</label>
+            <label>Lat: {{searchLatitude}}</label>
+        </div>
         <h4>Map Start</h4>
         <google-map center="map.center" zoom="map.zoom">
             <layer namespace="visualization" type="HeatmapLayer" oncreated="map.heatLayerCallback"></layer>

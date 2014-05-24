@@ -96,6 +96,20 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JG.MyPet.BusinessService\JG.MyPet.BusinessService.csproj">
+      <Project>{14480d98-4d7f-4987-a228-eb90c6b9575e}</Project>
+      <Name>JG.MyPet.BusinessService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JG.MyPet.DataService\JG.MyPet.DataService.csproj">
+      <Project>{002773ae-8fea-47cb-90e2-0411080472f8}</Project>
+      <Name>JG.MyPet.DataService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JG.MyPet.Models\JG.MyPet.Models.csproj">
+      <Project>{8d375ddb-d501-40da-9e53-f781d76059ba}</Project>
+      <Name>JG.MyPet.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

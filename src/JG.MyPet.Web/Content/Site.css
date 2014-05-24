@@ -1,6 +1,26 @@
 ﻿body {
 }
 
+header {
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background: url(images/banner.png) repeat-x;
+    height: 25px;
+}
+
+nav {
+    background: url(images/navigation.png) repeat-x;
+    height: inherit;
+    
+}
+
+.map-search {
+    height: 100px;
+}
+
 .angular-google-map-container {
     height: 400px;
 }

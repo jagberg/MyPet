@@ -2,6 +2,13 @@
 
 
 tickMapControllers.controller('TickMapController', ['$scope', 'TickPlaces', function ($scope, TickPlaces) {
+    $scope.locationSearchResult = '';
+    $scope.locationSearchOptions = {
+        country: 'au',
+    };
+    $scope.searchLongitude = '';
+    $scope.searchLatitude = '';
+
     var tickPlacesList = TickPlaces.query();
     var tickHeatMapPoints = [];
 
